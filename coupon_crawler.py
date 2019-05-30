@@ -199,7 +199,7 @@ while d >= end:
                           index=['id', 'title', 'class', 'content'])
             df = df.append(s, ignore_index=True)
 
-        # 重製儲存字串
+        ## 重製儲存字串
         add_String = ''
         add_Tag = ''
 
